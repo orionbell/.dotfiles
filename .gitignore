@@ -1,1 +1,4 @@
-./.config/nvim
+.config/nvim/
+.config/keepassxc/
+.config/obsidian/
+.config/dconf/
