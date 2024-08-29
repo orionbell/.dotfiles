@@ -1,7 +1,7 @@
 alias ls='exa --icons --git'
 alias ll='exa --long --icons -A --git --header'
 alias lr='exa --long --icons -A --git --recurse --header'
-
+alias dmenu='wofi --demnu'
 
 alias rm='rm -i'
 alias cp='cp -i'
@@ -162,3 +162,4 @@ bindkey "^[[B" down-line-or-beginning-search # ARROW_DOWN
 
 # Must go last (see https://github.com/zsh-users/zsh-syntax-highlighting#why-must-zsh-syntax-highlightingzsh-be-sourced-at-the-end-of-the-zshrc-file)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH=$HOME/.local/bin:$PATH

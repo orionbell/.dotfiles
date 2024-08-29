@@ -1,0 +1,37 @@
+#window {
+    background:rgba(30,30,40,0.7);
+    font-size:22px;
+    border:none;
+    border-radius:10px;
+}
+#outer-box {
+    margin:1em;
+}
+#input {
+    padding:0.5em;
+    margin-bottom:1em;
+}
+#img {
+    width:20px;
+    margin:0.5em 0;
+    margin-right:0.7em;
+}
+#entry {
+    margin-top:0.5em;
+    padding:0.25em 0.7em;
+    opacity:0.5;
+    }
+#entry:selected {
+    color:white;
+    opacity:1.0;
+    background:transparent;
+    border-left:solid 5px #dedede;
+}
+#expander-box {
+    background:transparent;
+    opacity:1.0;
+    color:white;
+}
+#text {
+    color:white;
+}

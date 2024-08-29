@@ -1,0 +1,18 @@
+#window {
+    background: rgba(30, 30, 40, 0.7);
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+}
+
+#entry {
+    padding: 0.25em 0.7em;
+    opacity: 0.5;
+}
+
+#entry:selected {
+    color: white;
+    opacity: 1.0;
+    background: transparent;
+    border-left: solid 5px #dedede;
+}

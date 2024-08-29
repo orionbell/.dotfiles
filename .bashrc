@@ -1,7 +1,7 @@
 alias ls='exa --icons --git'
 alias ll='exa --long --icons -A --git --header'
 alias lr='exa --long --icons -A --git --recurse --header'
-
+alias dmenu='wofi --demnu'
 
 alias rm='rm -i'
 alias cp='cp -i'

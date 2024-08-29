@@ -14,6 +14,6 @@ then
     IMG=$DIR/afternoon.webp
 fi
 echo $IMG
-swww query || swww init
+swww query || swww-daemon
 
 swww img ${IMG} --transition-fps 30 --transition-type random --transition-duration 2
