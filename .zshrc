@@ -50,7 +50,10 @@ alias extr='extract '
 pfp=~/.config/wallpapers/pngs/$(ls ~/.config/wallpapers/pngs |sort -R |tail -1)
 # PS1="\n\`if [ \$? = 0 ]; then echo \[\e[36m\]   \[\e[m\]; else echo \[\e[31m\] \[\e[0m\]; fi\` \[\e[38;5;27;1m\][\[\e[38;5;33m\] \u\[\e[38;5;27m\]]-[\[\e[38;5;33m\]  \h\[\e[38;5;27m\]]-[\[\e[38;5;33m\]  \@\[\e[38;5;27m\]]\[\e[0m\] \[\e[38;5;51;1m\] \w\n\[\e[38;5;27;1m\] 󱞪\[\e[0m\] "
 fastfetch -l $pfp --logo-width 30 --logo-padding-left 2 --logo-padding-top 1
-
+days_left1=$(echo $(date -d "2024-09-23" +%s) $(date +%s) | awk '{print int((($1 - $2) / 86400) + 1)}')
+echo "$days_left1 days left until database managment and design exam !"
+days_left=$(echo $(date -d "2024-10-08" +%s) $(date +%s) | awk '{print int((($1 - $2) / 86400) + 1)}')
+echo "$days_left days left until computer architecture and design exam !"
 [ -f ~/.fzf.bash ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
