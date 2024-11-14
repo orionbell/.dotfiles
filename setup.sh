@@ -10,7 +10,7 @@ cd yay
 makepkg -si
 
 # installed packages (with yay)
-yay -Sy aylurs-gtk-shell brillo ani-cli librewolf bibata-cursor-theme 
+yay -Sy aylurs-gtk-shell brillo ani-cli librewolf bibata-cursor-theme mov-cli mov-cli-youtube animdl∑
 # Gnome customization
 # yay -Sy gnome-shell-extension-dash-to-dock gnome-shell-extension-blur-my-shell gnome-shell-extension-vitals  whitesur-icon-theme whitesur-gtk-theme gnome-shell-extension-appindicator bibata-cursor-theme
 
